@@ -10,7 +10,7 @@ body {
 }
 
 .hero {
-  background-image: url('/images/gaming-banner.jpg');
+ /* background-image: url('/images/gaming-banner.jpg');*/
   background-size: cover;
   background-position: center;
   padding: 4rem 1rem;

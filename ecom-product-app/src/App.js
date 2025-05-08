@@ -29,10 +29,13 @@ function App() {
 
   return (
     <div className="App">
-      <header className="hero">
-        <h1>Level Up Your Game</h1>
-        <p>Shop elite gaming gear built for champions.</p>
+      <header className="hero"
+              style={{ backgroundImage: "url('/images/gaming-banner.jpg')" }}
+      >
+              <h1>Level Up Your Game</h1>
+              <p>Shop elite gaming gear built for champions.</p>
       </header>
+
       <section className="featured">
         <h2>Featured Gear</h2>
         <ProductList products={products} />
