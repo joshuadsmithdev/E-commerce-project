@@ -1,83 +1,70 @@
-# E-Commerce Product Listing App
+# Getting Started with Create React App
 
-## Project Overview
-This project is a simple E-Commerce Product Listing App built using React. It demonstrates the use of React components, props, and state management to create a dynamic product listing interface.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Learning Objectives
-By completing this project, you will learn to:
-- Organize code using React components.
-- Manage state using the `useState` hook.
-- Pass and manage data through props between components.
-- Structure a React application with a parent-child component hierarchy.
+## Available Scripts
 
-## Project Setup Instructions
+In the project directory, you can run:
 
-### 1. Set up the React app
-To set up the project, follow these steps:
+### `npm start`
 
-1. Open the terminal and create a new React project:
-   ```
-   npx create-react-app ecom-product-app
-   ```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-2. Navigate into the project folder:
-   ```
-   cd ecom-product-app
-   ```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-3. Install dependencies:
-   ```
-   npm install
-   ```
+### `npm test`
 
-### 2. Project Structure
-The project consists of the following main components:
-- **App Component (Parent)**: Manages the state for the list of products and passes data as props to child components.
-- **ProductList Component (Child of App)**: Receives the list of products from App via props and maps through them to display each product.
-- **ProductItem Component (Child of ProductList)**: Represents a single product, receiving individual product data via props.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Component Breakdown
-1. **App Component**
-   - Manages the state that holds an array of products.
-   - Passes the list of products as a prop to the ProductList component.
+### `npm run build`
 
-2. **ProductList Component**
-   - Receives the product list from App as a prop.
-   - Maps through the product list and renders each product using ProductItem.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. **ProductItem Component**
-   - Represents one product with its name, price, and description.
-   - Receives individual product data from ProductList via props.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Testing Your App
-Before submission, ensure that:
-- The list of products is displayed on the page.
-- State and props are used correctly between components.
-- The layout and styling look polished and consistent.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Optional Features
-If you feel confident, consider adding:
-- **Category Filtering**: Allow users to filter products based on categories.
-- **Product Images**: Include images for each product and display them in ProductItem.
+### `npm run eject`
 
-## Final Checklist Before Submission
-- A list of products is displayed on the page.
-- React components are structured properly with state and props.
-- CSS is applied for a well-styled, responsive UI.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Submission Instructions
-- Push the project to GitHub.
-- Submit the GitHub repository link in the assignment portal.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Grading Criteria
-- State Management: 5 Points
-- Props Implementation: 5 Points
-- Component Structure: 5 Points
-- Styling & Layout: 5 Points
-- Functionality & Testing: 5 Points
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Tips for Success
-- Keep your components modular and organized.
-- Use props efficiently to pass data between components.
-- Test your app frequently to catch errors early.
-- Ensure your CSS provides a consistent and appealing UI.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
