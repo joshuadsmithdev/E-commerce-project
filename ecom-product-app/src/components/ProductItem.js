@@ -1,15 +1,15 @@
 import React from 'react';
-import ProductItem from './ProductItem';
-import './ProductList.css';
+import './ProductItem.css';
 
-function ProductList({ products }) {
+function ProductItem({ product }) {
   return (
-    <div className="product-list">
-      {products.map(product => (
-        <ProductItem key={product.id} product={product} />
-      ))}
+    <div className="product-item">
+      <img src={product.image} alt={product.name} />
+      <h2>{product.name}</h2>
+      <p><strong>${product.price.toFixed(2)}</strong></p>
+      <p>{product.description}</p>
     </div>
   );
 }
 
-export default ProductList;
+export default ProductItem;

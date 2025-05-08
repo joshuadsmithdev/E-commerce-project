@@ -9,21 +9,21 @@ function App() {
       name: 'RGB Mechanical Keyboard',
       price: 89.99,
       description: 'Tactile keys, customizable lighting, and fast response',
-      image: '/images/keyboard.jpg',
+      image: '/images/gaming-keyboard.jpg',
     },
     {
       id: 2,
       name: 'Pro Gaming Mouse',
       price: 49.99,
       description: 'High DPI, ergonomic design, and programmable buttons',
-      image: '/images/mouse.jpg',
+      image: '/images/gaming-mouse.jpg',
     },
     {
       id: 3,
       name: 'Gaming Headset',
       price: 69.99,
       description: 'Surround sound with noise-cancelling mic',
-      image: '/images/headset.jpg',
+      image: '/images/gaming-headset.jpg',
     },
   ]);
 

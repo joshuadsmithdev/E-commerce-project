@@ -3,7 +3,10 @@ import ProductItem from './ProductItem';
 import './ProductList.css';
 
 function ProductList({ products }) {
-  return (
+    if (!products || products.length === 0) {
+        return <p>No products available.</p>;
+    }
+    return (
     <div className="product-list">
       {products.map(product => (
         <ProductItem key={product.id} product={product} />
