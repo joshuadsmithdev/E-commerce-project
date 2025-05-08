@@ -4,6 +4,7 @@
   border-radius: 10px;
   padding: 1rem;
   width: 220px;
+  height: 100%;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   color: #fff;
   transition: transform 0.2s ease;
@@ -17,4 +18,29 @@
   width: 100%;
   border-radius: 6px;
   margin-bottom: 0.75rem;
+}
+.add-to-cart,
+.view-details {
+  background-color: #00ffea;
+  color: #121212;
+  border: none;
+  padding: 10px 16px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem 0.25rem 0;
+  transition: background-color 0.2s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #00cbbd;
+}
+
+.view-details {
+  background-color: #ff4777;
+}
+
+.view-details:hover {
+  background-color: #e03c68;
 }
