@@ -1,0 +1,23 @@
+.product-detail {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #1e1e1e;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-detail img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  display: block;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #00ffea;
+  text-decoration: none;
+}
