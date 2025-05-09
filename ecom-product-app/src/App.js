@@ -37,6 +37,15 @@ function App() {
 
   return (
     <div className="App">
+      <nav className="navbar">
+        <div className="logo">🎮 GameHub</div>
+        <ul className="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
       <header className="hero"
               style={{ backgroundImage: "url('/images/gaming-banner.jpg')" }}
       >
