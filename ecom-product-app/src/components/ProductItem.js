@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import React from 'react';
 import './ProductItem.css';
 
@@ -9,7 +11,7 @@ function ProductItem({ product }) {
       <p><strong>${product.price.toFixed(2)}</strong></p>
       <p>{product.description}</p>
       <button className="add-to-cart" onClick={() => alert('Added ${product.name} to cart')}>Add to Cart</button>
-      <button className="view-details" onClick={() => alert('Viewing details for ${product.name}')}>View Details</button>
+      <Link to={`/products/${product.id}`} className="view-details">View Details</Link>
     </div>
   );
 }
