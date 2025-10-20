@@ -1,9 +1,11 @@
 [build]
+  # build INSIDE the subfolder that has package.json
   base = "ecom-product-app"
-  command = "npm ci && npm run build"
-  publish = "ecom-product-app/build"
+  # use npm install so it can reconcile the lockfile mismatch
+  command = "npm install --no-audit --no-fund && npm run build"
+  # because base is set, publish should be just "build"
+  publish = "build"
 
-# SPA routing (React Router)
 [[redirects]]
   from = "/*"
   to = "/index.html"
