@@ -1,9 +1,9 @@
-# Netlify config for React (CRA or Vite). Adjust 'publish' if needed.
 [build]
-  command = "npm run build"
-  publish = "build"
+  base = "ecom-product-app"
+  command = "npm ci && npm run build"
+  publish = "ecom-product-app/build"
 
-# Handle client-side routing (React Router)
+# SPA routing (React Router)
 [[redirects]]
   from = "/*"
   to = "/index.html"
